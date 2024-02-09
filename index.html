@@ -3,68 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdminDashboard</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
+            <a href="#" class="title"><img src="res/view-dashboard.svg" class="icon large">Dashboard</a>
             <div class="menu">
-                <a href="#" ><img src="res/view-dashboard.svg" class="icon large">Dashboard</a>
                 <a href="#" ><img src="res/home.svg" class="icon small">Home</a>
                 <a href="#" ><img src="res/card-account-details-outline.svg" class="icon small">Profile</a>
                 <a href="#" ><img src="res/message-reply.svg" class="icon small">Messages</a>
                 <a href="#" ><img src="res/clock-time-four-outline.svg" class="icon small">History</a>
                 <a href="#" ><img src="res/note-multiple.svg" class="icon small">Tasks</a>
                 <a href="#" ><img src="res/account-group.svg" class="icon small">Communities</a>
+            </div>
+            <div class="setting">
                 <a href="#" ><img src="res/cog.svg" class="icon small">Settings</a>
                 <a href="#" ><img src="res/help-box.svg" class="icon small">Support</a>
                 <a href="#" ><img src="res/shield-check.svg" class="icon small">Privacy</a>
             </div>
         </div>
         <div class="head">
-            <div class="searchbar">
-                <label for="searchbar"><img src="res/magnify.svg" class="icon-black small"></label>
-                <input type="text" name="searchbar" id="searchbar">
+            <div class="top-head">
+                <div class="search-section">
+                    <label for="searchbar"><img src="res/magnify.svg" class="icon-black small"></label>
+                    <input type="text" name="searchbar" id="searchbar">
+                </div>
+                <div class="account-group">
+                    <a href="#" class=""><img src="res/bell-ring-outline.svg" class="small"></a>
+                    <a class="account" href="#"><img class="profilePic-small" src="res/profile.png">Test User</a>
+                </div>
             </div>
             <div>
-                <img src="res/bell-ring-outline.svg" class="icon-black small">
-                <a href="#"><img class="profile-small" src="res/profile.png">Test User 123</a>
+                <div class="profile">
+                    <img class="profilePic" src="res/profile.png">
+                    <p class="greeting">Hi there,</p>
+                    <p class="user">Test User (@tUser)</p>
+                </div>
+                <div class="buttons">
+                    <button>new</button>
+                    <button>upload</button>
+                    <button>share</button>
+                </div>
+
             </div>
         </div>
         <div class="main-section">
             <div class="projects">
-                <div class="card">
-
-                </div>
-                <div class="card">
-
-                </div>
-                <div class="card">
-
-                </div>
-                <div class="card">
-                    
-                </div>
-                <div class="card">
-
-                </div>
-                <div class="card">
-
+                <h3>Your Projects</h3>
+                <div class="cards">
+                    <div class="card">
+                    <div class="text">
+                        <h3>cool project</h3>
+                        <p>test text</p>
+                    </div>
+                    <div class="bottom-section">
+                        <button><img src="res/star-plus-outline.svg" class="small"></button>
+                        <button><img src="res/eye-plus-outline.svg" class="small"></button>
+                        <button><img src="res/source-fork.svg" class="small"></button>
+                    </div>
                 </div>
 
+                <div class="card">
+                    <div class="text">
+                        <h3>cool project</h3>
+                        <p>test text</p>
+                    </div>
+                    <div class="bottom-section">
+                        <button><img src="res/star-plus-outline.svg" class="small"></button>
+                        <button><img src="res/eye-plus-outline.svg" class="small"></button>
+                        <button><img src="res/source-fork.svg" class="small"></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="text">
+                        <h3>cool project</h3>
+                        <p>test text</p>
+                    </div>
+                    <div class="bottom-section">
+                        <button><img src="res/star-plus-outline.svg" class="small"></button>
+                        <button><img src="res/eye-plus-outline.svg" class="small"></button>
+                        <button><img src="res/source-fork.svg" class="small"></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="text">
+                        <h3>cool project</h3>
+                        <p>test text</p>
+                    </div>
+                    <div class="bottom-section">
+                        <button><img src="res/star-plus-outline.svg" class="small"></button>
+                        <button><img src="res/eye-plus-outline.svg" class="small"></button>
+                        <button><img src="res/source-fork.svg" class="small"></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="text">
+                        <h3>cool project</h3>
+                        <p>test text</p>
+                    </div>
+                    <div class="bottom-section">
+                        <button><img src="res/star-plus-outline.svg" class="small"></button>
+                        <button><img src="res/eye-plus-outline.svg" class="small"></button>
+                        <button><img src="res/source-fork.svg" class="small"></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="text">
+                        <h3>cool project</h3>
+                        <p>test text</p>
+                    </div>
+                    <div class="bottom-section">
+                        <button><img src="res/star-plus-outline.svg" class="small"></button>
+                        <button><img src="res/eye-plus-outline.svg" class="small"></button>
+                        <button><img src="res/source-fork.svg" class="small"></button>
+                    </div>
+                </div>
+
+                </div>
             </div>
-            <div class="announcements">
+            <div class="rightside">
+                <div class = "announcements">
+                    <h3>Announcements</h3>
+                    <div class = "announcement-block">
+                        <div class = "announcement">
+                            <h4>Site Maintenance</h4>
+                            <p>Ullamco laboris proident minim elit proident.</p>
+                        </div>
+                        <div class = "announcement">
+                            <h4>Community Share Day</h4>
+                            <p>Magna est aliqua cupidatat eiusmod dolore nisi commodo pariatur.</p>
+                        </div>
+                        <div class = "announcement">
+                            <h4>Updated Private Policy</h4>
+                            <p>Pariatur labore ex voluptate laboris consectetur anim dolore ullamco.</p>
+                        </div>
+                    </div>
+                </div>
 
-            </div>
-            <div class="trending">
-
+                <div class = "trending">
+                    <h3>Trending</h3>
+                    <div class = "users">
+                        <div class = "user">
+                            <img class = "profilePic" src = "res/profile.png">
+                            <div class = "user-info">
+                                <p class = "tag">@tegan</p>
+                                <p class = "name">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class = "user">
+                            <img class = "profilePic" src = "res/profile.png">
+                            <div class = "user-info">
+                                <p class = "tag">@morgan</p>
+                                <p class = "name">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <img class = "profilePic" src = "res/profile.png">
+                            <div class = "user-info">
+                                <p class="tag">@kendall</p>
+                                <p class="name">Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class = "user">
+                            <img class = "profilePic" src="res/profile.png">
+                            <div class = "user-info">
+                                <p class = "tag">@alex</p>
+                                <p class = "name">No Traffic Maker</p>
+                            </div>
+                        </div>
+                </div>
             </div>
         </div>
-
     </div>
-    
-
-    
 </body>
 </html>
